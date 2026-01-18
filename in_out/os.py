@@ -1,7 +1,7 @@
-import os
-list_directory = os.listdir()
+import os  # This is built-in module in pyhton for handling files.
 current_directory = os.getcwd()
+list_directory = os.listdir()
 
-print("Current Directory : \n",current_directory)
+print("Current directory : ",current_directory)
 print("")
-print("Files in current directory :\n",list_directory)
+print("Files in current directory : ",list_directory)
