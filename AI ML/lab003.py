@@ -1,7 +1,3 @@
-# Prince Mann 
-# 590026590
-# B-52
-
 # Q1 Write a python command to load the dataset and print first 10 rows
 import pandas as pd
 summer = pd.read_csv(r"C:\Users\Princ\OneDrive\Documents\summer.csv")
@@ -39,4 +35,5 @@ print(mul)
 print(summer.groupby("Country")["Medal"].count().sort_values(ascending = False).head(10))
 
 # Q10 Write python code to display the structure of dataset including columns names , datatype and non-null counts
+
 print(summer.info())
